@@ -39,6 +39,22 @@ a {
   text-decoration: none;
 }
 
+button {
+  padding: 9px;
+  color: #fff;
+  background-color: #567b95;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  border: 1px solid #326891;
+  transition: ease 0.6s;
+}
+
+i.fa {
+  color: #555;
+}
+
 /*
 ======= nav bar =============
 */
@@ -66,28 +82,19 @@ nav {
   margin: 0 20px 0 0;
 }
 
-nav > a i.fa {
-  color: #555;
-}
-
 nav > a {
   color: #000;
 }
 
-nav :nth-child(3) {
-  font-weight: 900;
+.top-social > a,
+.end-social > a {
+  color: #000;
+  font-size: 20px;
+  margin-right: 15px;
 }
 
-nav > button {
-  padding: 9px;
-  color: #fff;
-  background-color: #567b95;
-  border-radius: 4px;
-  font-size: 11px;
-  font-weight: 700;
-  cursor: pointer;
-  border: 1px solid #326891;
-  transition: ease 0.6s;
+nav :nth-child(3) {
+  font-weight: 900;
 }
 
 .under-header {
@@ -126,13 +133,6 @@ main {
   padding: 20px 0;
 }
 
-.top-social > a {
-  color: #000;
-  text-decoration: none;
-  font-size: 20px;
-  margin-left: 15px;
-}
-
 .picture {
   max-width: 1200px;
   margin: 0 auto;
@@ -146,6 +146,13 @@ main {
   margin-bottom: 50px;
   font-size: 0.9rem;
   line-height: 1.2rem;
+}
+
+.p-last > a {
+  text-decoration: underline;
+  color: rgb(102, 102, 102);
+  font-size: 0.75rem;
+  line-height: 1rem;
 }
 
 .picture :nth-child(3) {
@@ -166,7 +173,6 @@ main {
 
 .science-time {
   max-width: 1300px;
-  height: 20px;
   display: flex;
   flex-wrap: wrap;
   margin: 0 auto;
@@ -256,14 +262,93 @@ main {
   font-weight: 900;
 }
 
-/*
-======= main =============
-*/
+/* theory of inflaction */
 
-/*
-======= footer =============
-*/
+.theory-of-inflation {
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.grid-images {
+  position: absolute;
+  top: 100px;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.grid-paragraph {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 70px;
+  grid-row-gap: 100px;
+  position: relative;
+  margin: 200px 0 0 0;
+  z-index: 2;
+}
+
+.grid-paragraph > p {
+  font-size: 14px;
+  line-height: 17px;
+  font-weight: 300;
+  color: #000;
+  word-spacing: 3px;
+}
+
+.hr-theory {
+  width: 100px;
+  float: left;
+  border-top: 1px solid #000;
+}
+
+.inflactio-images > p {
+  float: left;
+  font-size: 0.875rem;
+  font-weight: 500;
+  font-style: normal;
+}
+
+/* celebrate-physics */
+
+.celebrate-physics {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.space-image {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.after-image {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.p-last {
+  color: rgb(102, 102, 102);
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.end-button {
+  float: left;
+  width: 45%;
+  height: 40px;
+  font-size: 0.8rem;
+}
+
+.end-social {
+  float: left;
+  padding: 10px 0 10px 40px;
+}
+
+/* ======= main ============= */
+
+/* ======= footer ============= */
 
 footer {
   flex: 0 0 200px;
+  background-color: #eee;
 }
