@@ -15,10 +15,28 @@ body {
   flex-direction: column;
   padding: 0;
   margin: 0;
+  color: #333;
 }
 
 img {
   width: 100%;
+}
+
+p {
+  margin: 0 0 0.935rem 0;
+  width: 100%;
+  max-width: 100%;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+a {
+  text-decoration: none;
 }
 
 /*
@@ -53,7 +71,6 @@ nav > a i.fa {
 }
 
 nav > a {
-  text-decoration: none;
   color: #000;
 }
 
@@ -119,19 +136,25 @@ main {
 .picture {
   max-width: 1200px;
   margin: 0 auto;
+  margin-bottom: 30px;
 }
 
 .picture > p {
   text-align: left;
   max-width: 900px;
   color: #555;
-  margin-bottom: 70px;
-  padding: 0 10px;
+  margin-bottom: 50px;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
 }
 
 .picture :nth-child(3) {
   max-width: 600px;
   margin: 0 auto;
+}
+
+.thanks a {
+  color: #567b95;
 }
 
 .picture :nth-child(3) a {
@@ -140,6 +163,98 @@ main {
 }
 
 /* signup-for-story section */
+
+.science-time {
+  max-width: 1300px;
+  height: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.big-as-it-get {
+  color: #000;
+  font-weight: 900;
+  font-size: 1.4rem;
+}
+
+.empty {
+  flex: 1;
+}
+
+.article {
+  border-top: 1px solid #eee;
+  flex: 2;
+  padding: 20px 0 30px;
+  margin: 0 40px;
+}
+
+.eithy-persent {
+  float: left;
+  max-width: 85%;
+  margin: 0;
+  padding: 0 30px 10px 0;
+  font-style: italic;
+}
+
+.eithy-persent > span {
+  font-weight: 900;
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+.sign-science {
+  max-width: 15%;
+  float: left;
+  background-color: rgb(255, 255, 255);
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  color: rgb(0, 0, 0);
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.2em;
+  padding: 8px 10px;
+  font-weight: 800;
+}
+
+.science-time > aside {
+  flex: 1;
+  max-height: 350px;
+  margin: auto 0;
+}
+
+.side-bar {
+  max-width: 220px;
+  max-height: 300px;
+  margin: 0 auto;
+}
+
+.side-bar > a > img {
+  float: left;
+  max-width: 80px;
+  max-height: 80px;
+  margin: 0 5px 0 0;
+}
+
+.side-bar > a > h3 {
+  color: #000;
+  font-weight: 500;
+  padding-bottom: 0;
+  font-size: 14px;
+  margin-top: 0;
+}
+
+.hr-thanks {
+  width: 100px;
+  margin: 0 auto;
+  border-bottom: 1px solid #eee;
+}
+
+.thanks {
+  padding: 20px 0;
+  text-align: center;
+  font-weight: 900;
+}
 
 /*
 ======= main =============
