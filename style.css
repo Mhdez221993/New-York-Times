@@ -39,6 +39,10 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+}
+
 button {
   padding: 9px;
   color: #fff;
@@ -53,6 +57,11 @@ button {
 
 i.fa {
   color: #555;
+}
+
+.bold {
+  font-weight: bold;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 /*
@@ -155,18 +164,13 @@ main {
   line-height: 1rem;
 }
 
-.picture :nth-child(3) {
+.picture-parhagraph {
   max-width: 600px;
   margin: 0 auto;
 }
 
 .thanks a {
   color: #567b95;
-}
-
-.picture :nth-child(3) a {
-  color: #121212;
-  margin: 0 auto;
 }
 
 /* signup-for-story section */
@@ -350,5 +354,60 @@ main {
 
 footer {
   flex: 0 0 200px;
-  background-color: #eee;
+  padding: 40px 0;
+}
+
+.footer-container {
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+.tick {
+  border-top: 2px solid #eee;
+  margin-bottom: 2px;
+}
+
+.fine {
+  border-top: 1px solid #eee;
+  margin-bottom: 10px;
+}
+
+.go-to-home {
+  float: right;
+  color: #326891;
+  font-size: 0.8rem;
+}
+
+.footer-link {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ul-first {
+  align-self: flex-start;
+  padding: 0;
+  font-weight: 100;
+}
+
+.footer-link > ul a {
+  color: #000;
+  line-height: 1.5rem;
+  font-size: 0.9rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.final-links {
+  display: flex;
+  justify-content: space-between;
+}
+
+.final-links > li > a {
+  color: rgb(102, 102, 102);
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.li-first {
+  align-self: flex-start;
+  padding: 0;
 }
