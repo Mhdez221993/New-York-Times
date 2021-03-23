@@ -17,6 +17,10 @@ body {
   margin: 0;
 }
 
+img {
+  width: 100%;
+}
+
 /*
 ======= nav bar =============
 */
@@ -84,6 +88,55 @@ nav > button {
 
 main {
   flex: 1;
+}
+
+.main-title {
+  width: 30%;
+  margin: 0 auto;
+  border-bottom: 1px solid #eee;
+}
+
+.main-title > h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-style: italic;
+  font-weight: 700;
+  color: #121212;
+}
+
+.top-social {
+  width: 30%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.top-social > a {
+  color: #000;
+  text-decoration: none;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+.picture {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.picture > p {
+  text-align: left;
+  max-width: 900px;
+  color: #555;
+  margin-bottom: 70px;
+  padding: 0 10px;
+}
+
+.picture :nth-child(3) {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.picture :nth-child(3) a {
+  color: #121212;
+  margin: 0 auto;
 }
 
 /* signup-for-story section */
