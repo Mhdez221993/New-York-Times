@@ -16,6 +16,7 @@ body {
   padding: 0;
   margin: 0;
   color: #333;
+  font-family: "Arial Black", Helvetica, sans-serif;
 }
 
 img {
@@ -246,6 +247,13 @@ main {
   margin: 0 5px 0 0;
 }
 
+.news > h3 {
+  margin: 0 auto 0 0;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+}
+
 .side-bar > a > h3 {
   color: #000;
   font-weight: 500;
@@ -372,26 +380,21 @@ main {
 .news {
   display: flex;
 }
-.news h3{
-  margin: 0 auto 0 0;
-  font-size: 1rem;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #000;
-}
 
-.news button{
+.news button {
   background-color: white;
   color: #000;
   border: none;
 }
 
-.cards{
+.cards {
   padding: 10px 0;
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
 }
-.card{
+
+.card {
   width: 30%;
   border: 1px solid #eee;
   padding: 10px;
@@ -443,7 +446,7 @@ main {
   padding: 0;
 }
 
-.popular > li a{
+.popular > li a {
   color: #000;
   font-size: 1.187rem;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -457,7 +460,6 @@ main {
 .br-long {
   max-width: 600px;
   border-bottom: 1px solid #000;
-  
 }
 
 .br-short {
