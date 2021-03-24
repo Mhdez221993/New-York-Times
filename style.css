@@ -276,7 +276,7 @@ main {
 
 .grid-images {
   position: absolute;
-  top: 100px;
+  top: 150px;
   background-color: transparent;
   z-index: 1;
 }
@@ -285,7 +285,7 @@ main {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr 1fr;
-  grid-column-gap: 70px;
+  grid-column-gap: 60px;
   grid-row-gap: 100px;
   position: relative;
   margin: 200px 0 0 0;
@@ -336,16 +336,133 @@ main {
   line-height: 1rem;
 }
 
+.button-icons {
+  width: 100%;
+  margin-bottom: 70px;
+}
+
 .end-button {
-  float: left;
   width: 45%;
   height: 40px;
   font-size: 0.8rem;
 }
 
 .end-social {
-  float: left;
+  float: right;
+  width: 55%;
   padding: 10px 0 10px 40px;
+}
+
+/* suggested-newsletters */
+
+.suggested-newsletters {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.new-grid {
+  flex: 0 1 70%;
+  margin-right: 20px;
+  border-top: 1px solid #000;
+  padding-top: 20px;
+}
+
+.news {
+  display: flex;
+}
+.news h3{
+  margin: 0 auto 0 0;
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000;
+}
+
+.news button{
+  background-color: white;
+  color: #000;
+  border: none;
+}
+
+.cards{
+  padding: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.card{
+  width: 30%;
+  border: 1px solid #eee;
+  padding: 10px;
+}
+
+.card > i.fa {
+  float: right;
+  font-size: 30px;
+}
+
+.card > span {
+  font-size: 11px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card > h2 {
+  font-size: 1.125rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.card > p {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.25rem;
+}
+
+.images-card {
+  width: 80px;
+  height: 100px;
+}
+
+.space {
+  width: 30%;
+}
+
+.most-popular {
+  flex: 0 1 26%;
+  border-top: 1px solid #000;
+}
+
+.popular > li {
+  margin-bottom: 10px;
+  padding: 8px 0;
+  border-bottom: 2px solid #eee;
+}
+
+.popular {
+  margin: 0;
+  padding: 0;
+}
+
+.popular > li a{
+  color: #000;
+  font-size: 1.187rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.popular > li > h3 {
+  margin: 0;
+  padding: 0;
+}
+
+.br-long {
+  max-width: 600px;
+  border-bottom: 1px solid #000;
+  
+}
+
+.br-short {
+  max-width: 600px;
+  border-bottom: 1px solid #000;
 }
 
 /* ======= main ============= */
@@ -353,7 +470,7 @@ main {
 /* ======= footer ============= */
 
 footer {
-  flex: 0 0 200px;
+  flex: 0 0 600px;
   padding: 40px 0;
 }
 
