@@ -17,6 +17,7 @@ body {
   margin: 0;
   color: #333;
   font-family: "Arial Black", Helvetica, sans-serif;
+  align-items: center;
 }
 
 img {
@@ -38,6 +39,10 @@ p {
 
 a {
   text-decoration: none;
+  color: rgb(51, 51, 51);
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 15px;
 }
 
 ul {
@@ -58,24 +63,98 @@ button {
 
 i.fa {
   color: #555;
+  font-size: 17px;
+  margin-right: 13px;
+  padding: 6px;
+  border-radius: 20px;
 }
 
-.bold {
-  font-weight: bold;
+.span {
+  font-size: 0.9375rem;
+  line-height: 1.24rem;
+  color: #666;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.smaller {
+  font-size: 0.7rem;
+  line-height: 1.24rem;
+  color: #666;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.georga {
+  font-weight: 500;
+  font-size: 1.1875rem;
+  line-height: 1.4375rem;
+  color: rgb(18, 18, 18);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.helvetica {
   font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.helvetica-san {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #333;
+  line-height: 17px;
+  font-weight: 300;
+}
+
+.h2 {
+  color: #333;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.25rem;
+}
+
+.eleven {
+  font-size: 11px;
+  font-weight: bold;
+  color: #000;
+}
+
+.hr-thanks {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.link {
+  color: #326891;
+  text-decoration: underline;
+  font-size: 100%;
 }
 
 /*
 ======= nav bar =============
 */
 
+header {
+  min-width: 100%;
+  flex: 0 0 50px;
+  padding: 0;
+  margin: 0;
+}
+
 nav {
   display: flex;
-  height: 60px;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
   margin: 0 72px 0 72px;
+}
+
+.card > i.fa {
+  float: right;
+  font-size: 35px;
+}
+
+.top-nav > a > i.fa {
+  background-color: #fff;
 }
 
 .center {
@@ -90,21 +169,6 @@ nav {
 
 .right {
   margin: 0 20px 0 0;
-}
-
-nav > a {
-  color: #000;
-}
-
-.top-social > a,
-.end-social > a {
-  color: #000;
-  font-size: 20px;
-  margin-right: 15px;
-}
-
-nav :nth-child(3) {
-  font-weight: 900;
 }
 
 .under-header {
@@ -125,22 +189,27 @@ main {
 }
 
 .main-title {
-  width: 30%;
+  width: 40%;
   margin: 0 auto;
-  border-bottom: 1px solid #eee;
 }
 
 .main-title > h1 {
+  border-bottom: 1px solid #eee;
   font-family: 'Times New Roman', Times, serif;
-  font-style: italic;
   font-weight: 700;
-  color: #121212;
+  font-style: italic;
+  font-size: 2rem;
 }
 
 .top-social {
-  width: 30%;
   margin: 0 auto;
   padding: 20px 0;
+}
+
+.left {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
 }
 
 .picture {
@@ -149,29 +218,13 @@ main {
   margin-bottom: 30px;
 }
 
-.picture > p {
-  text-align: left;
-  max-width: 900px;
-  color: #555;
-  margin-bottom: 50px;
-  font-size: 0.9rem;
-  line-height: 1.2rem;
-}
-
-.p-last > a {
-  text-decoration: underline;
-  color: rgb(102, 102, 102);
-  font-size: 0.75rem;
-  line-height: 1rem;
+.align {
+  padding-left: 285px;
 }
 
 .picture-parhagraph {
   max-width: 600px;
   margin: 0 auto;
-}
-
-.thanks a {
-  color: #567b95;
 }
 
 /* signup-for-story section */
@@ -183,10 +236,8 @@ main {
   margin: 0 auto;
 }
 
-.big-as-it-get {
-  color: #000;
-  font-weight: 900;
-  font-size: 1.4rem;
+.no-shade > i {
+  padding: 0;
 }
 
 .empty {
@@ -205,25 +256,28 @@ main {
   max-width: 85%;
   margin: 0;
   padding: 0 30px 10px 0;
-  font-style: italic;
+  font-size: 13px;
+  font-style: normal;
 }
 
-.eithy-persent > span {
-  font-weight: 900;
-  font-size: 0.8rem;
-  font-family: Arial, Helvetica, sans-serif;
-  font-style: normal;
+.italic {
+  font-style: italic;
+  font-weight: 500;
+  color: rgb(51, 51, 51);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.0624rem;
+}
+
+.article > button {
+  background-color: #fff;
+  color: #000;
 }
 
 .sign-science {
   max-width: 15%;
   float: left;
-  background-color: rgb(255, 255, 255);
   border: 1px solid rgb(0, 0, 0);
   border-radius: 2px;
-  color: rgb(0, 0, 0);
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.2em;
   padding: 8px 10px;
   font-weight: 800;
 }
@@ -238,6 +292,8 @@ main {
   max-width: 220px;
   max-height: 300px;
   margin: 0 auto;
+  display: flex;
+  flex-direction: column;
 }
 
 .side-bar > a > img {
@@ -247,25 +303,14 @@ main {
   margin: 0 5px 0 0;
 }
 
-.news > h3 {
-  margin: 0 auto 0 0;
-  font-size: 1rem;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #000;
+.side-bar > h3 {
+  font-size: 15px;
 }
 
 .side-bar > a > h3 {
-  color: #000;
+  font-size: 0.75rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
   font-weight: 500;
-  padding-bottom: 0;
-  font-size: 14px;
-  margin-top: 0;
-}
-
-.hr-thanks {
-  width: 100px;
-  margin: 0 auto;
-  border-bottom: 1px solid #eee;
 }
 
 .thanks {
@@ -284,7 +329,7 @@ main {
 
 .grid-images {
   position: absolute;
-  top: 150px;
+  top: 130px;
   background-color: transparent;
   z-index: 1;
 }
@@ -293,32 +338,17 @@ main {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr 1fr;
-  grid-column-gap: 60px;
+  grid-column-gap: 10px;
   grid-row-gap: 100px;
   position: relative;
   margin: 200px 0 0 0;
   z-index: 2;
 }
 
-.grid-paragraph > p {
-  font-size: 14px;
-  line-height: 17px;
-  font-weight: 300;
-  color: #000;
-  word-spacing: 3px;
-}
-
 .hr-theory {
   width: 100px;
   float: left;
   border-top: 1px solid #000;
-}
-
-.inflactio-images > p {
-  float: left;
-  font-size: 0.875rem;
-  font-weight: 500;
-  font-style: normal;
 }
 
 /* celebrate-physics */
@@ -336,12 +366,6 @@ main {
 .after-image {
   max-width: 600px;
   margin: 0 auto;
-}
-
-.p-last {
-  color: rgb(102, 102, 102);
-  font-size: 0.75rem;
-  line-height: 1rem;
 }
 
 .button-icons {
@@ -400,27 +424,6 @@ main {
   padding: 10px;
 }
 
-.card > i.fa {
-  float: right;
-  font-size: 30px;
-}
-
-.card > span {
-  font-size: 11px;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.card > h2 {
-  font-size: 1.125rem;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.card > p {
-  font-size: 1rem;
-  font-family: Arial, Helvetica, sans-serif;
-  line-height: 1.25rem;
-}
-
 .images-card {
   width: 80px;
   height: 100px;
@@ -435,24 +438,13 @@ main {
   border-top: 1px solid #000;
 }
 
-.popular > li {
-  margin-bottom: 10px;
+.popular > ul > li {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
   padding: 8px 0;
-  border-bottom: 2px solid #eee;
 }
 
 .popular {
-  margin: 0;
-  padding: 0;
-}
-
-.popular > li a {
-  color: #000;
-  font-size: 1.187rem;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
-.popular > li > h3 {
   margin: 0;
   padding: 0;
 }
@@ -472,13 +464,8 @@ main {
 /* ======= footer ============= */
 
 footer {
-  flex: 0 0 600px;
-  padding: 40px 0;
-}
-
-.footer-container {
-  max-width: 1300px;
-  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
 }
 
 .tick {
@@ -491,42 +478,45 @@ footer {
   margin-bottom: 10px;
 }
 
-.go-to-home {
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 0 20px 0;
+}
+
+.footer-nav > nav,
+nav > ul {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-cp-right {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.cp-right {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.footer-brand {
+  margin: 0;
+}
+
+.footer-brand > a > img {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+}
+
+.footer-brand > a:nth-child(2) {
+  margin: 0 auto 0 0;
   float: right;
-  color: #326891;
-  font-size: 0.8rem;
-}
-
-.footer-link {
-  display: flex;
-  justify-content: space-between;
-}
-
-.ul-first {
-  align-self: flex-start;
-  padding: 0;
-  font-weight: 100;
-}
-
-.footer-link > ul a {
-  color: #000;
-  line-height: 1.5rem;
-  font-size: 0.9rem;
-  font-family: Arial, Helvetica, sans-serif;
-}
-
-.final-links {
-  display: flex;
-  justify-content: space-between;
-}
-
-.final-links > li > a {
-  color: rgb(102, 102, 102);
-  font-size: 0.75rem;
-  line-height: 1rem;
-}
-
-.li-first {
-  align-self: flex-start;
-  padding: 0;
 }
