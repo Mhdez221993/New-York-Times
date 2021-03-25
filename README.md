@@ -15,7 +15,9 @@ This assignment consists of making a clone of a New York Times article page
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](x-special/nautilus-clipboard
+copy
+file:///home/moises/Pictures/Space%20Ripples%20Reveal%20Big%20Bang's%20Smoking%20Gun-The...%20-%20Google%20Chrome_001.png)
 
 
 ## Getting Started
