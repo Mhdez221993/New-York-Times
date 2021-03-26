@@ -394,14 +394,59 @@ main {
 form {
   width: 600px;
   box-sizing: border-box;
-  border: 1px solid #fff;
-  padding: 20px 40px;
+  padding: 40px 40px;
   justify-content: center;
   box-shadow: 5px 5px 19px #ccc;
   border-radius: 5px;
   margin: 0 auto 3rem auto;
+  border: 1px solid #eee;
 }
 
+form li {
+  margin: 0 0 2rem 0;
+}
+
+form ul {
+  padding: 0;
+  margin-top: 3rem;
+}
+
+form label {
+  display: block;
+}
+
+.input {
+  width: 100%;
+  height: 2.3rem;
+  border-radius: 3px;
+}
+
+textarea {
+  width: 100%;
+  height: 8rem;
+  padding: 10px;
+  border-radius: 3px;
+}
+
+.fieldset {
+  margin: 0 0 5rem 0;
+  border-radius: 3px;
+}
+
+.radio {
+  margin: 0 0.7rem 0 0;
+  padding: 1px 0 0 0;
+}
+
+.checkbox {
+  margin: 0 0 2rem 0;
+}
+
+.submit {
+  width: 100%;
+  height: 3rem;
+  font-size: 1rem;
+}
 
 /* suggested-newsletters */
 
