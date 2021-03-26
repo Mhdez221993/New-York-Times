@@ -1,0 +1,528 @@
+html {
+  box-sizing: border-box;
+}
+
+*,
+*::after,
+*::before {
+  box-sizing: inherit;
+}
+
+body {
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  padding: 0;
+  margin: 0;
+  color: #333;
+  font-family: "Arial Black", Helvetica, sans-serif;
+  align-items: center;
+}
+
+img {
+  width: 100%;
+}
+
+p {
+  margin: 0 0 0.935rem 0;
+  width: 100%;
+  max-width: 100%;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0;
+  margin-inline-end: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(51, 51, 51);
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 15px;
+}
+
+ul {
+  list-style: none;
+}
+
+button {
+  padding: 9px;
+  color: #fff;
+  background-color: #567b95;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 700;
+  cursor: pointer;
+  border: 1px solid #326891;
+  transition: ease 0.6s;
+}
+
+i.fa {
+  color: #555;
+  font-size: 17px;
+  margin-right: 13px;
+  padding: 6px;
+  border-radius: 20px;
+}
+
+.span {
+  font-size: 0.9375rem;
+  line-height: 1.24rem;
+  color: #666;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.smaller {
+  font-size: 0.7rem;
+  line-height: 1.24rem;
+  color: #666;
+  font-family: 'Times New Roman', Times, serif;
+}
+
+.georga {
+  font-weight: 500;
+  font-size: 1.1875rem;
+  line-height: 1.4375rem;
+  color: rgb(18, 18, 18);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.helvetica {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.helvetica-san {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 14px;
+  color: #333;
+  line-height: 17px;
+  font-weight: 300;
+}
+
+.h2 {
+  color: #333;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1.25rem;
+}
+
+.h3 {
+  font-size: 1rem;
+}
+
+.eleven {
+  font-size: 11px;
+  font-weight: bold;
+  color: #000;
+}
+
+.hr-thanks {
+  width: 100px;
+  margin: 0 auto;
+}
+
+.link {
+  color: #326891;
+  text-decoration: underline;
+  font-size: 100%;
+}
+
+/*
+======= nav bar =============
+*/
+
+header {
+  min-width: 100%;
+  flex: 0 0 50px;
+  padding: 0;
+  margin: 0;
+  position: fixed;
+  background-color: #fff;
+}
+
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  margin: 0 72px 0 72px;
+}
+
+.card > i.fa {
+  float: right;
+  font-size: 35px;
+}
+
+.top-nav > a > i.fa {
+  background-color: #fff;
+}
+
+.center {
+  margin: 0 auto 0 auto;
+  padding: 0;
+  text-align: center;
+}
+
+.center > img {
+  width: 15em;
+}
+
+.right {
+  margin: 0 20px 0 0;
+}
+
+.under-header {
+  border-bottom: 0.5px solid #eee;
+  margin-bottom: 80px;
+}
+
+/*
+======= nav bar =============
+*/
+
+/*
+======= main =============
+*/
+
+main {
+  flex: 1;
+}
+
+.main-title {
+  width: 40%;
+  margin: 0 auto;
+}
+
+.main-title > h1 {
+  border-bottom: 1px solid #eee;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: 700;
+  font-style: italic;
+  font-size: 2rem;
+}
+
+.top-social {
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.left {
+  width: 40%;
+  display: flex;
+  justify-content: flex-start;
+}
+
+.picture {
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+}
+
+.align {
+  padding-left: 285px;
+}
+
+.picture-parhagraph {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+/* signup-for-story section */
+
+.science-time {
+  max-width: 1300px;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+}
+
+.no-shade > i {
+  padding: 0;
+}
+
+.empty {
+  flex: 1;
+}
+
+.article {
+  border-top: 1px solid #eee;
+  flex: 2;
+  padding: 20px 0 30px;
+  margin: 0 40px;
+}
+
+.eithy-persent {
+  float: left;
+  max-width: 85%;
+  margin: 0;
+  padding: 0 30px 10px 0;
+  font-size: 13px;
+  font-style: normal;
+}
+
+.italic {
+  font-style: italic;
+  font-weight: 500;
+  color: rgb(51, 51, 51);
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-size: 1.0624rem;
+}
+
+.article > button {
+  background-color: #fff;
+  color: #000;
+}
+
+.sign-science {
+  max-width: 15%;
+  float: left;
+  border: 1px solid rgb(0, 0, 0);
+  border-radius: 2px;
+  padding: 8px 10px;
+  font-weight: 800;
+}
+
+.science-time > aside {
+  flex: 1;
+  max-height: 350px;
+  margin: auto 0;
+}
+
+.side-bar {
+  max-width: 220px;
+  max-height: 300px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.side-bar > a > img {
+  float: left;
+  max-width: 80px;
+  max-height: 80px;
+  margin: 0 5px 0 0;
+}
+
+.side-bar > h3 {
+  font-size: 15px;
+}
+
+.side-bar > a > h3 {
+  font-size: 0.75rem;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: 500;
+}
+
+.thanks {
+  padding: 20px 0;
+  text-align: center;
+  font-weight: 900;
+}
+
+/* theory of inflaction */
+
+.theory-of-inflation {
+  max-width: 1000px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.grid-images {
+  position: absolute;
+  top: 130px;
+  background-color: transparent;
+  z-index: 1;
+}
+
+.grid-paragraph {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr 1fr;
+  grid-column-gap: 10px;
+  grid-row-gap: 100px;
+  position: relative;
+  margin: 200px 0 0 0;
+  z-index: 2;
+}
+
+.hr-theory {
+  width: 100px;
+  float: left;
+  border-top: 1px solid #000;
+}
+
+/* celebrate-physics */
+
+.celebrate-physics {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.space-image {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.after-image {
+  max-width: 600px;
+  margin: 0 auto;
+}
+
+.button-icons {
+  width: 100%;
+  margin-bottom: 70px;
+}
+
+.end-button {
+  width: 45%;
+  height: 40px;
+  font-size: 0.8rem;
+}
+
+.end-social {
+  float: right;
+  width: 55%;
+  padding: 10px 0 10px 40px;
+}
+
+/* suggested-newsletters */
+
+.suggested-newsletters {
+  display: flex;
+  max-width: 1200px;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+
+.new-grid {
+  flex: 0 1 70%;
+  margin-right: 20px;
+  border-top: 1px solid #000;
+  padding-top: 20px;
+}
+
+.news {
+  display: flex;
+}
+
+.news button {
+  background-color: white;
+  color: #000;
+  border: none;
+}
+
+.cards {
+  padding: 10px 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.card {
+  width: 30%;
+  border: 1px solid #eee;
+  padding: 10px;
+}
+
+.images-card {
+  width: 80px;
+  height: 100px;
+}
+
+.space {
+  width: 30%;
+}
+
+.most-popular {
+  flex: 0 1 26%;
+  border-top: 1px solid #000;
+}
+
+.popular > ul > li {
+  margin-bottom: 20px;
+  border-bottom: 1px solid #eee;
+  padding: 8px 0;
+}
+
+.popular {
+  margin: 0;
+  padding: 0;
+}
+
+.br-long {
+  max-width: 600px;
+  border-bottom: 1px solid #000;
+}
+
+.br-short {
+  max-width: 600px;
+  border-bottom: 1px solid #000;
+}
+
+/* ======= main ============= */
+
+/* ======= footer ============= */
+
+footer {
+  width: 100%;
+  max-width: 1200px;
+}
+
+.tick {
+  border-top: 2px solid #eee;
+  margin-bottom: 2px;
+}
+
+.fine {
+  border-top: 1px solid #eee;
+  margin-bottom: 10px;
+}
+
+.footer-nav {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 0 0 20px 0;
+}
+
+.footer-nav > nav,
+nav > ul {
+  margin: 0;
+  padding: 0;
+}
+
+.nav-cp-right {
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.cp-right {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.footer-brand {
+  margin: 0;
+}
+
+.footer-brand > a > img {
+  margin: 0;
+  padding: 0;
+  width: 200px;
+}
+
+.footer-brand > a:nth-child(2) {
+  margin: 0 auto 0 0;
+  float: right;
+}

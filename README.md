@@ -4,7 +4,7 @@
 
 > Positioning and Floating Elements
 
-![screenshot](./app_screenshot.png)
+![screenshot](./images/prview.png)
 
 This assignment consists of making a clone of a New York Times article page
 
@@ -15,13 +15,12 @@ This assignment consists of making a clone of a New York Times article page
 
 ## Live Demo
 
-[Live Demo Link](https://livedemo.com)
+[Live Demo Link](https://mhdez221993.github.io/New-York-Times/)
 
 
 ## Getting Started
 
-**This is an example of how you may give instructions on setting up your project locally.**
-**Modify this file to match your project, remove sections that don't apply. For example: delete the testing section if the currect project doesn't require testing.**
+**This is my version of the New York Time article's page, is a clone website is build using HTML & CSS**
 
 
 To get a local copy up and running follow these simple example steps.
@@ -40,7 +39,7 @@ To get a local copy up and running follow these simple example steps.
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the [issues page](issues/).
+Feel free to check the [issues page](https://github.com/Mhdez221993/New-York-Times/issues).
 
 ## Show your support
 
@@ -54,4 +53,4 @@ Give a ⭐️ if you like this project!
 
 ## 📝 License
 
-This project is [MIT](lic.url) licensed.
+This project is [MIT](https://github.com/Mhdez221993/New-York-Times/blob/working-space/LICENSE) licensed.
