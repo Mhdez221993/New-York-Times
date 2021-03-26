@@ -389,6 +389,20 @@ main {
   padding: 10px 0 10px 40px;
 }
 
+/* form section */
+
+form {
+  width: 600px;
+  box-sizing: border-box;
+  border: 1px solid #fff;
+  padding: 20px 40px;
+  justify-content: center;
+  box-shadow: 5px 5px 19px #ccc;
+  border-radius: 5px;
+  margin: 0 auto 3rem auto;
+}
+
+
 /* suggested-newsletters */
 
 .suggested-newsletters {
