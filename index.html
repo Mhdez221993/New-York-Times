@@ -320,6 +320,56 @@
            <p>
             “If you trace your cosmic roots,” said Abraham Loeb, a Harvard-Smithsonian astronomer who was not part of the team, “you wind up at inflation.”
            </p>
+
+           <form>
+            <h1 class="center">Feedback Form</h1>
+           <ul>
+            <li>
+              <label for="name">Name</label>
+              <input class="input" type="text" id="name" name="user_name" required maxlength="20">
+            </li>
+            <li>
+              <label for="mail">Email</label>
+              <input class='input' type="email" id="mail" name="user_email" maxlength="20" required>
+            </li>
+            <li>
+              <label for="msg">Comments</label>
+              <textarea id="msg" name="user_message" required maxlength="250"></textarea>
+             </li>
+           </ul>
+            <fieldset class="fieldset">
+               <legend>What is your overall opinion about this article</legend>
+               <ul>
+                 <li>
+                   <label for="positive">
+                     <input class="radio" type="radio" id="positive" name="article" value="A">positive
+                   </label>
+                   
+                 </li>
+                 <li>
+                   <label for="negative">
+                     <input class="radio" type="radio" id="negative" name="article" value="C">negative
+                   </label>
+                   
+                 </li>
+                 <li>
+                   <label for="neutral">
+                     <input class="radio" type="radio" id="neutral" name="article" value="B">neutral
+                   </label>
+                 </li>
+               </ul>
+             </fieldset>
+            <section class="checkbox">
+              <label>
+                 <input type="checkbox">
+                I want to subscribe to the newsletter
+              </label>
+            </section>
+            <section class="submit-button">
+              <button class="submit" type="submit">Send</button>
+              </section>
+          </form>
+
            <p class="span">
                A version of this article appears in print on March 18, 2014, Section A, Page 1 of the New York edition with the headline: Space Ripples Reveal Big Bang’s Smoking Gun. 
                <a href="#">Order</a> 
@@ -354,6 +404,7 @@
                 </div>
            </section>
         </section>
+
 
         <article class="suggested-newsletters">
             <section class="new-grid">
@@ -493,6 +544,7 @@
                 </nav>
             </aside>
         </article>
+        
     </main>
     <footer>
         <div class="tick"></div>
